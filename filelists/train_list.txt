@@ -778,7 +778,7 @@
 /content/drive/MyDrive/Project/wavs/07_F_set_08_048.wav|Chinthakalkku theekkolutthiya kendramaanathu.
 /content/drive/MyDrive/Project/wavs/07_F_set_18_128.wav|Ente koote kuracchu divasam nilkku.
 /content/drive/MyDrive/Project/wavs/07_F_set_24_177.wav|Dushperum punasrushticcha thamizhchithramaaya orulpannam.
-/content/drive/MyDrive/Project/wavs/07_F_set_01_006.wav|Hrudayashoonyanaaya vyavasaayiyeppole perumaararuthu
+/content/drive/MyDrive/Project/wavs/07_F_set_01_006.wav|Hrudayashoonyanaaya vyavasaayiyeppole perumaararuthu.
 /content/drive/MyDrive/Project/wavs/07_F_set_18_004.wav|Kaala varshatthekkuricchumulla randu desheeya shilpa shaalakalu irupatthiyanchinu natakkum.
 /content/drive/MyDrive/Project/wavs/07_F_set_13_119.wav|Samsthaanasarkkaaru chelavu vahikkum.
 /content/drive/MyDrive/Project/wavs/07_F_set_04_119.wav|Bhakshuyadhaanyangalute pothuvitharanatthilulla apaakathayekkuricchu anveshikkaanu kotathi niyogiccha upadeshtaavu graamangalile sarpanchmaarute sammelanam vilicchu chertthirunnu.
