@@ -1,4 +1,4 @@
-# Tacotron 2 (without wavenet)
+# Tacotron 2 with WaveGlow
 
 PyTorch implementation of [Natural TTS Synthesis By Conditioning
 Wavenet On Mel Spectrogram Predictions](https://arxiv.org/pdf/1712.05884.pdf). 
