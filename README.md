@@ -18,8 +18,8 @@ Visit our [website] for audio samples using our published [Tacotron 2] and
 1. NVIDIA GPU + CUDA cuDNN
 
 ## Setup
-1. Download and extract the [LJ Speech dataset](https://keithito.com/LJ-Speech-Dataset/)
-2. Clone this repo: `git clone https://github.com/NVIDIA/tacotron2.git`
+1. Download [IndicTTS Malayalam Female Dataset](https://www.kaggle.com/datasets/kavyamanohar/indic-tts-malayalam-speech-corpus?select=mono_female_1)
+2. Clone this repo: `git clone https://github.com/parapsychic/malayalam-tacotron2'`
 3. CD into this repo: `cd tacotron2`
 4. Initialize submodule: `git submodule init; git submodule update`
 5. Update .wav paths: `sed -i -- 's,DUMMY,ljs_dataset_folder/wavs,g' filelists/*.txt`
@@ -28,6 +28,8 @@ Visit our [website] for audio samples using our published [Tacotron 2] and
 7. Install [Apex]
 8. Install python requirements or build docker image 
     - Install python requirements: `pip install -r requirements.txt`
+    
+### Alternatively, run the [Malayalam_Tacotron.ipynb](Malayalam_Tacotron.ipynb) file after loading the dataset.
 
 ## Training
 1. `python train.py --output_directory=outdir --log_directory=logdir`
