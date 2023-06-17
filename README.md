@@ -1,14 +1,17 @@
-# Tacotron 2 with WaveGlow
+# Malayalam TTS using Tacotron 2, WaveGlow and Transfer Learning
 
+## Tacotron
 PyTorch implementation of [Natural TTS Synthesis By Conditioning
 Wavenet On Mel Spectrogram Predictions](https://arxiv.org/pdf/1712.05884.pdf). 
 
 This implementation includes **distributed** and **automatic mixed precision** support
-and uses the [LJSpeech dataset](https://keithito.com/LJ-Speech-Dataset/).
+and uses the [LJSpeech dataset](https://keithito.com/LJ-Speech-Dataset/) for the base model.
+
+The Malayalam model uses [IndicTTS Malayalam Female Dataset](https://www.kaggle.com/datasets/kavyamanohar/indic-tts-malayalam-speech-corpus?select=mono_female_1) as its dataset.
 
 Distributed and Automatic Mixed Precision support relies on NVIDIA's [Apex] and [AMP].
 
-Visit our [website] for audio samples using our published [Tacotron 2] and
+Visit Nvidia's [website] for audio samples using their published base English [Tacotron 2] and
 [WaveGlow] models.
 
 ![Alignment, Predicted Mel Spectrogram, Target Mel Spectrogram](tensorboard.png)
@@ -30,6 +33,9 @@ Visit our [website] for audio samples using our published [Tacotron 2] and
     - Install python requirements: `pip install -r requirements.txt`
     
 ### Alternatively, run the [Malayalam_Tacotron.ipynb](Malayalam_Tacotron.ipynb) file after loading the dataset.
+- The below training instructions are for general Tacotron2 training. We used a pre-trained English Tacotron2 model (given below) to train our model.
+- The code to train the model can be found in the Jupyter Notebook linked above.
+- If you don't want to train your own model, you can download our [pre-trained Malayalam Text-to-Speech model](https://drive.google.com/file/d/1aMY388LGeNEw3TDx2NiL-NhYm5qpLjst/view?usp=sharing).
 
 ## Training
 1. `python train.py --output_directory=outdir --log_directory=logdir`
@@ -63,6 +69,9 @@ Generative Network for Speech Synthesis
 WaveNet.
 
 ## Acknowledgements
+This repo was forked from Nvidia's Tacotron2 implementation. The model was retrained to
+generate Malayalam speech output.
+
 This implementation uses code from the following repos: [Keith
 Ito](https://github.com/keithito/tacotron/), [Prem
 Seetharaman](https://github.com/pseeth/pytorch-stft) as described in our code.
